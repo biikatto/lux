@@ -26,20 +26,16 @@ public class Goal : MonoBehaviour{
 		}else{
 			winMessage = "Player 1 Wins!!";
 		}
-		if(words == null){
- 			words = new Rect(
- 					(Screen.width-w)/2,
- 					(Screen.height-h)/2,
- 					w,
- 					h);
- 		}
-		if(scoreRect == null){
-   			scoreRect = new Rect(
-   					(Screen.width * 0.25f) - 75f,
-   					15f,
-   					150f,
-   					50f);
-   		}
+ 		words = new Rect(
+ 				(Screen.width-w)/2,
+ 				(Screen.height-h)/2,
+ 				w,
+ 				h);
+   		scoreRect = new Rect(
+   				(Screen.width * 0.25f) - 75f,
+   				15f,
+   				150f,
+   				50f);
 	}
 
 	IEnumerator TextWait (float seconds) {
