@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 87aca5e84cb2f9647aff4dae3610edef
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Ball: {instanceID: 0}
+  - Spawn: {instanceID: 0}
+  - GuiSkin1: {fileID: 11400000, guid: d93b90a8624ac434aa94a07abed2a718, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
